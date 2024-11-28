@@ -12,6 +12,13 @@ let example_array = [1,2,3,4,5,6,7,8,9]
 let is_True = true
 
 
-console.log(example_array)
+function myFirstFunction(value, secondValue) {
 
-function
+console.log(value * secondValue)
+}
+
+let multipleTwoNumber = myFirstFunction
+
+multipleTwoNumber(3,5)
+multipleTwoNumber(5,7)
+multipleTwoNumber(2,8)
