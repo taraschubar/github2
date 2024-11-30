@@ -21,8 +21,22 @@
 // }
 
 
-function printName(name){
-    console.log('The persons name is: ', name)
+// function printName(name){
+//     console.log('The persons name is: ', name)
+// }
+// let firstName = 'Taras'
+// printName(firstName)
+
+// function printName(name = 'defalut name'){
+//     console.log('The persons name is: ', name)
+// }
+// let firstName = "Taras"
+// printName(firstName)
+
+function addNumber(first_Number, second_Number){
+    let sum = first_Number + second_Number
+    return sum 
 }
-let firstName = 'Taras'
-printName(firstName)
+ let sum1= addNumber(2,4)
+ let sum2= addNumber(3,7)
+ console.log(sum1, sum2)
