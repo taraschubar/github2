@@ -40,3 +40,13 @@ function addNumber(first_Number, second_Number){
  let sum1= addNumber(2,4)
  let sum2= addNumber(3,7)
  console.log(sum1, sum2)
+
+ function factorial(n) {
+    // Base case
+    if (n === 0 || n === 1) {
+      return 1;
+    } else {
+      // Recursive case
+      return n * factorial(n - 1);
+    }
+  }
